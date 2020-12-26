@@ -38,7 +38,7 @@ export class InstallguideNavbar extends LitElement {
     return html`
     <nav class="navbar is-transparent is-info" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item" href="https://learn-rails.com/">
+        <a class="navbar-item" href="https://install.guide/">
         <figure class="image">
             <img src="/favicon-32x32.png" width="32" height="32">
           </figure>
