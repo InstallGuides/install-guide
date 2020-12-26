@@ -1,0 +1,10 @@
+/* custom CSS for landing page */
+
+.author-bg-image {
+    background-image: url("/assets/images/home/author-bg-image.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+}

@@ -1,0 +1,68 @@
+/* custom CSS for articles  */
+
+.content blockquote {
+  background-color: white;
+  border-left: 0;
+  padding: 0;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+  padding-bottom: 1.2em;
+}
+code {
+  color: #4a4a4a;
+  background-color: #e6ffed;
+  font-size: 0.9rem;
+}
+img {
+  width: 100%;
+  max-width: 650px;
+  display: block;
+  margin: 0 auto;
+}
+img + em {
+  font-style: italic;
+  display: inherit;
+  text-align: center;
+  font-size: 0.7rem;
+}
+@media only screen and (min-width : 768px) {
+  .content blockquote {
+    font-style: italic;
+    font-weight: bold;
+    font-family: serif;
+    float: left;
+    margin-left: 15px;
+    width: 150px;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    color: #655c9d;
+  }
+  .content blockquote p {
+    display: inline;
+  }
+}
+@media only screen and (max-width : 768px) {
+ .content blockquote {
+    font-style: italic;
+    font-weight: bold;
+    font-family: serif;
+    margin-left: 15px;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    color: #655c9d;
+  }
+  .content blockquote p {
+    display: inline;
+  }
+}
+
+/* override Prism style for numbers  */
+.number {
+  all: inherit;
+}
+.token.number {
+  all: inherit;
+}
