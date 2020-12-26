@@ -1,6 +1,6 @@
-# mac-install-guide
+# install-guide
 
-Website for the [mac.install.guide](https://mac.install.guide) project.
+Website for the [install.guide](https://install.guide) project.
 
 ## Viewing locally
 
