@@ -1,4 +1,4 @@
-import { LitElement, html } from 'https://cdn.skypack.dev/lit-element';
+import { LitElement, html } from 'https://jspm.dev/lit-element';
 
 export class YaxHack extends LitElement {
 	render() {
