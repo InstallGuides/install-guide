@@ -1,4 +1,4 @@
-import { LitElement, html } from 'https://jspm.dev/lit-element@2';
+import { LitElement, html } from 'https://jspm.dev/npm:lit-element@2.4.0';
 
 export class YaxHack extends LitElement {
 	render() {
