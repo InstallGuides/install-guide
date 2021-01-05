@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Page 2 · Install Guide</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<meta name="robots" content="noindex, nofollow" />
+		<link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.css" />
+		<script type="module" src="/assets/scripts/yax-hack.js"></script>
+		<link rel="icon" href="favicon.ico" />
+	</head>
+
+	<body>
+		<header style="min-height: 64px;">
+			<yax-navbar></yax-navbar>
+		</header>
+
+		<div style="min-height: 180px;">
+			<yax-tutorial-hero></yax-tutorial-hero>
+		</div>
+
+		<section class="section">
+			<div class="container">
+				<div class="columns">
+					<div class="column is-3 is-hidden-mobile">
+						<yax-tutorial-toc></yax-tutorial-toc>
+					</div>
+
+					<div class="column is-9">
+
+            <yax-hack></yax-hack>
+
+						<div id="doc-content" class="content">
+							<yax-markdown theme="okaidia" mdsrc=""> </yax-markdown>
+						</div>
+
+						<yax-tutorial-paginate></yax-tutorial-paginate>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<yax-footer></yax-footer>
+		</footer>
+	</body>
+</html>
