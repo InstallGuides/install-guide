@@ -2,7 +2,7 @@ import { LitElement, html } from 'https://jspm.dev/lit-element@2';
 
 export class YaxHack extends LitElement {
 	render() {
-		return html`<h4>Test</h4>`;
+		return html`<h2>Test</h2>`;
 	}
 }
 
