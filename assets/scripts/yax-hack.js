@@ -1,7 +1,7 @@
 import prismjs from 'https://cdn.skypack.dev/prismjs';
 import commonmark from 'https://cdn.skypack.dev/commonmark@0.29.1';
-import { LitElement, html } from 'https://cdn.skypack.dev/lit-element@2';
-import { unsafeHTML } from 'https://cdn.skypack.dev/lit-html@1/directives/unsafe-html.js';
+import { LitElement, html } from 'https://cdn.skypack.dev/lit-element@3.0.0-pre.2';
+import { unsafeHTML } from 'https://cdn.skypack.dev/lit-html@2.0.0-pre.5/directives/unsafe-html.js';
 
 const ALLOWED_THEMES = ['coy', 'dark', 'funky', 'okaidia', 'solarizedlight', 'tomorrow', 'twilight'];
 
