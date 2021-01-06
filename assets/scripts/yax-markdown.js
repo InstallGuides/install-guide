@@ -6,6 +6,9 @@ import commonmark from 'https://jspm.dev/commonmark@0.29.1';
 import { LitElement, html } from 'https://jspm.dev/lit-element@2.4.0';
 import { unsafeHTML } from 'https://jspm.dev/lit-html@1/directives/unsafe-html.js';
 import { } from "https://jspm.dev/npm:entities@1.1.2!cjs";
+import { } from "https://jspm.dev/npm:entities@1.1.2/maps/xml.json";
+import { } from "https://jspm.dev/npm:lit-html@1.3.0/_/35f522a9.js";
+import { } from "https://jspm.dev/npm:prismjs@1.23.0!cjs";
 
 const ALLOWED_THEMES = ['coy', 'dark', 'funky', 'okaidia', 'solarizedlight', 'tomorrow', 'twilight'];
 
