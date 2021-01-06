@@ -1,4 +1,4 @@
-import { LitElement, html } from 'https://cdn.skypack.dev/lit-element@2.4.0';
+import { LitElement, html } from 'https://cdn.skypack.dev/lit-element@2.0.0';
 import { Template } from 'https://cdn.skypack.dev/lit-html@1.3.0/lib/template.js';
 import { templateFactory } from 'https://cdn.skypack.dev/lit-html@1.3.0/lib/template-factory.js';
 import { until } from 'https://cdn.skypack.dev/lit-html@1.3.0/directives/until.js';
