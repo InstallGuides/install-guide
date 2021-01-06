@@ -1,6 +1,6 @@
 import { LitElement, html } from 'https://cdn.skypack.dev/lit-element';
-import { until } from 'https://cdn.skypack.dev/lit-html/directives/until.js';
-import { unsafeHTML } from 'https://cdn.skypack.dev/lit-html/directives/unsafe-html.js';
+import { until } from 'https://jspm.dev/npm:lit-html@1.3.0';
+import { unsafeHTML } from 'https://jspm.dev/npm:lit-html@1.3.0';
 
 export class YaxHack extends LitElement {
   createRenderRoot() {
