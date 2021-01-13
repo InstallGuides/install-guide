@@ -1,8 +1,6 @@
-// /scripts//yax-tutorial-hero.js file
-
-import { LitElement, html } from 'https://jspm.dev/lit-element@2.4.0';
-import { until } from 'https://jspm.dev/lit-html@1/directives/until.js';
-import { unsafeHTML } from 'https://jspm.dev/lit-html@1/directives/unsafe-html.js';
+import { LitElement, html } from 'https://jspm.dev/lit-element';
+import { until } from 'https://jspm.dev/lit-html/directives/until.js';
+import { unsafeHTML } from 'https://jspm.dev/lit-html/directives/unsafe-html.js';
 
 export class YaxTutorialHero extends LitElement {
 	createRenderRoot() {
