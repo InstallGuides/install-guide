@@ -1,5 +1,5 @@
-import prismjs from 'https://jspm.dev/prismjs';
-import commonmark from 'https://jspm.dev/commonmark';
+import prismjs from 'https://cdn.skypack.dev/prismjs';
+import commonmark from 'https://cdn.skypack.dev/commonmark';
 import { LitElement, html } from 'https://jspm.dev/lit-element';
 import { unsafeHTML } from 'https://jspm.dev/lit-html/directives/unsafe-html.js';
 
