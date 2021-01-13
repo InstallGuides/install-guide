@@ -1,8 +1,8 @@
 // derived from https://github.com/GermanMtzmx/prism-markdown-element
 // thank you to German Martinez Solis
 
-import prismjs from 'https://jspm.dev/prismjs';
-import commonmark from 'https://jspm.dev/commonmark';
+// import prismjs from 'https://jspm.dev/prismjs';
+// import commonmark from 'https://jspm.dev/commonmark';
 import { LitElement, html } from 'https://jspm.dev/lit-element';
 import { unsafeHTML } from 'https://jspm.dev/lit-html/directives/unsafe-html.js';
 
