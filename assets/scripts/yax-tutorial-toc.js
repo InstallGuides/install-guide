@@ -1,6 +1,6 @@
-import { LitElement, html } from 'https://jspm.dev/lit-element';
-import { until } from 'https://jspm.dev/lit-html/directives/until.js';
-import { unsafeHTML } from 'https://jspm.dev/lit-html/directives/unsafe-html.js';
+import { LitElement, html } from 'lit-element';
+import { until } from 'lit-html/directives/until';
+import { unsafeHTML } from 'lit-html/directives/unsafe-html';
 
 export class YaxTutorialToc extends LitElement {
 	createRenderRoot() {
@@ -27,7 +27,7 @@ export class YaxTutorialToc extends LitElement {
 				if (pagination == 'onepage') {
 					heading = 'Collected Articles';
 				}
-				for (const [key, value] of Object.entries(pages)) {
+				for (const [value] of Object.values(pages)) {
 					list_item += '<li><a href="';
 					list_item += value.url;
 					list_item += '">';

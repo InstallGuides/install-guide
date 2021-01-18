@@ -1,5 +1,5 @@
-import { LitElement, html } from 'https://jspm.dev/lit-element';
-import { until } from 'https://jspm.dev/lit-html/directives/until.js';
+import { LitElement, html } from 'lit-element';
+import { until } from 'lit-html/directives/until';
 
 export class YaxTutorialPaginate extends LitElement {
 	createRenderRoot() {
@@ -15,7 +15,7 @@ export class YaxTutorialPaginate extends LitElement {
 			})
 			.then(tutorial => {
 				if (tutorial.pagination == 'onepage') {
-					return Promise.reject(html`&nbsp;`);
+					return html`&nbsp;`;
 				} else {
 					return tutorial.pages;
 				}

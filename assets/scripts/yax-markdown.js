@@ -1,7 +1,10 @@
-import prismjs from 'https://cdn.skypack.dev/prismjs';
-import commonmark from 'https://cdn.skypack.dev/commonmark';
-import { LitElement, html } from 'https://jspm.dev/lit-element';
-import { unsafeHTML } from 'https://jspm.dev/lit-html/directives/unsafe-html.js';
+// derived from https://github.com/GermanMtzmx/prism-markdown-element
+// thank you to German Martinez Solis
+
+import * as prismjs from 'prismjs';
+import * as commonmark from 'commonmark';
+import { LitElement, html } from 'lit-element';
+import { unsafeHTML } from 'lit-html/directives/unsafe-html';
 
 const ALLOWED_THEMES = ['coy', 'dark', 'funky', 'okaidia', 'solarizedlight', 'tomorrow', 'twilight'];
 
