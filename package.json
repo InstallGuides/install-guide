@@ -1,0 +1,14 @@
+{
+  "name": "codekit-project",
+  "version": "1.0.0",
+  "description": "CodeKit created this starter package.json file. You should customize it appropriately.",
+  "scripts": {},
+  "author": "",
+  "license": "UNLICENSED",
+  "repository": {},
+  "dependencies": {
+    "commonmark": "^0.29.3",
+    "lit-element": "^2.4.0",
+    "prismjs": "^1.23.0"
+  }
+}
