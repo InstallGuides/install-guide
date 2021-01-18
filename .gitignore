@@ -16,6 +16,11 @@
 *_LOCAL_*.txt
 *_REMOTE_*.txt
 
+### Node ###
+
+node_modules/
+npm-debug.log*
+
 ### macOS ###
 # General
 .DS_Store
