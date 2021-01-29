@@ -1,12 +1,13 @@
-import { LitElement, html } from 'lit-element';
-import { until } from 'lit-html/directives/until';
-import { unsafeHTML } from 'lit-html/directives/unsafe-html';
+import { LitElement, html } from 'https://jspm.dev/lit-element';
+import { until } from 'https://jspm.dev/lit-html/directives/until.js';
+import { unsafeHTML } from 'https://jspm.dev/lit-html/directives/unsafe-html.js';
 
 export class YaxArticlesList extends LitElement {
   createRenderRoot() {
     return this;
   }
   load() {
+    let type = 'tutorial';
     return fetch('/articles/manifest.json')
     .then(response => {
       if (!response.ok) {
@@ -19,7 +20,7 @@ export class YaxArticlesList extends LitElement {
     })
     .then(pages => {
       let list_item = '';
-      for (const [value] of Object.values(pages)) {
+      for (const [key, value] of Object.entries(pages)) {
         list_item += '<span><a href="';
         list_item += value.url;
         list_item += '">';

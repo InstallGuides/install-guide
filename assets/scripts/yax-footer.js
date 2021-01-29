@@ -1,4 +1,4 @@
-import { LitElement, html } from 'lit-element';
+import { LitElement, html } from 'https://jspm.dev/lit-element';
 
 export class YaxFooter extends LitElement {
 	createRenderRoot() {
