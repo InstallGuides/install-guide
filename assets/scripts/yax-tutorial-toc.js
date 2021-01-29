@@ -1,6 +1,6 @@
-import { LitElement, html } from 'https://jspm.dev/lit-element';
-import { until } from 'https://jspm.dev/lit-html/directives/until.js';
-import { unsafeHTML } from 'https://jspm.dev/lit-html/directives/unsafe-html.js';
+import { LitElement, html } from 'https://cdn.skypack.dev/lit-element';
+import { until } from 'https://cdn.skypack.dev/lit-html/directives/until.js';
+import { unsafeHTML } from 'https://cdn.skypack.dev/lit-html/directives/unsafe-html.js';
 
 export class YaxTutorialToc extends LitElement {
 	createRenderRoot() {

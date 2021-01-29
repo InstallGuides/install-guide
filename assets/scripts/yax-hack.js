@@ -1,9 +1,9 @@
-import { LitElement, html } from 'https://jspm.dev/lit-element';
+import { LitElement, html } from 'https://cdn.skypack.dev/lit-element';
 export class YaxHack extends LitElement {
   render() {
     return html`
     <h2>Test</h2>
-    <code>import { LitElement, html } from 'https://jspm.dev/lit-element';</code>
+    <code>import { LitElement, html } from 'https://cdn.skypack.dev/lit-element';</code>
     `;
   }
 }
