@@ -28,4 +28,4 @@ render() {
   `;
 }
 }
-customElements.define('installguide-test-skypack-pinned.js', InstallguideTestSkypackPinned);
+customElements.define('installguide-test-skypack-pinned', InstallguideTestSkypackPinned);
