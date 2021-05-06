@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Test - Install Guides</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" href="/favicon.ico">
+  <meta name="description" content="Installation guides. Open source guides, contributed by the community.">
+  <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.css">
+  <link rel="stylesheet" href="/assets/styles/home.css">
+  <script type="module" src="/assets/scripts/installguide-navbar.js"></script>
+  <script type="module" src="/assets/scripts/installguide-footer.js"></script>
+  <script type="module" src="/assets/scripts/installguide-test-jspm-pinned.js"></script>
+</head>
+
+<body>
+
+  <header style="min-height: 64px;">
+    <installguide-navbar></installguide-navbar>
+  </header>
+
+  <div class="hero-body">
+    <div class="container">
+        <div class="columns is-vcentered">
+            <div class="column is-5 is-offset-1 landing-caption">
+                <installguide-test-jspm-pinned></installguide-test-jspm-pinned>
+                <br/>
+                <code>
+                import { LitElement, html } from 'https://jspm.dev/lit@2.0.0-rc.1';
+                </code>
+            </div>
+            <div class="column is-5">
+                <figure class="image is-4by3">
+                    <img src="/assets/images/home/worker.svg" alt="working on a mac">
+                </figure>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+  <footer>
+    <installguide-footer></installguide-footer>
+  </footer>
+</body>
+</html>
