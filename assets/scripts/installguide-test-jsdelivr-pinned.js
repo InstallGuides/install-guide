@@ -1,4 +1,4 @@
-import { LitElement, html } from 'https://cdn.jsdelivr.net/npm/lit@2.0.0-rc.1';
+import { LitElement, html } from 'https://cdn.jsdelivr.net/npm/lit@2.0.0-rc.1/+esm';
 
 export class InstallguideTestJsdelivrPinned extends LitElement {
 createRenderRoot() {

@@ -28,11 +28,11 @@
                 <installguide-test-jsdelivr-unpinned></installguide-test-jsdelivr-unpinned>
                 <br/>
                 <code>
-                import { LitElement, html } from 'https://cdn.jsdelivr.net/npm/lit';
+                import { LitElement, html } from 'https://cdn.jsdelivr.net/npm/lit/+esm';
                 </code>
                 <br/>
                 <em>
-                  Uncaught TypeError: Failed to resolve module specifier "lit-html". Relative references must start with either "/", "./", or "../".
+                  GET https://cdn.jsdelivr.net/npm/lit-html@2.0.0-rc.2/+esm net::ERR_ABORTED 404
                 </em>
             </div>
             <div class="column is-5">
